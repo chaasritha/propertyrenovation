@@ -1,0 +1,78 @@
+/* src/pages/Dashboard.css */
+.dashboard-container {
+    padding: 20px;
+    background-color: #d4dee6; /* Light background for better contrast */
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif; /* Set a clean font */
+    border-radius: 8px; /* Rounded corners for container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around; /* Space out the cards evenly */
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    background-color: #ffffff; /* White background for cards */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    flex: 1 1 250px; /* Allow flexibility and set a minimum width */
+    text-align: center; /* Center text inside cards */
+}
+
+.stat-card h2 {
+    margin: 0;
+    font-size: 1.5rem; /* Font size for headings */
+}
+
+.stat-card p {
+    font-size: 2rem; /* Larger font size for the value */
+    color: #007BFF; /* Primary color for the value */
+}
+
+.news-updates, .upcoming-events {
+    margin: 20px 0;
+}
+
+h2 {
+    margin-bottom: 10px; /* Space below headings */
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0; /* Space between list items */
+    padding: 10px;
+    background-color: #e7f3fe; /* Light blue background for list items */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .dashboard-container {
+        padding: 10px; /* Less padding on smaller screens */
+    }
+
+    h1 {
+        font-size: 2rem; /* Adjust title size for mobile */
+    }
+
+    .stat-card {
+        padding: 15px; /* Less padding for cards on mobile */
+    }
+}

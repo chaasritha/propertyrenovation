@@ -1,0 +1,57 @@
+/* src/pages/Home.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column; /* Change to column to stack items */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-image: url('https://www.shutterstock.com/image-vector/vote-voting-election-concept-on-260nw-2196016981.jpg'); /* Reference from the public folder */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .welcome-section {
+    text-align: center; /* Center the text */
+  }
+  
+  .welcome-message {
+    font-size: 36px; /* Set a larger font size for the message */
+  }
+  
+  .welcome-text {
+    color: orange; /* Color for "Welcome to" */
+  }
+  
+  .election-text {
+    color: white; /* Color for "Election Monitoring" */
+  }
+  
+  .system-text {
+    color: green; /* Color for "System!" */
+  }
+  
+  .button-container {
+    margin-top: 20px; /* Space between welcome message and buttons */
+  }
+  
+  .action-button {
+    padding: 10px 20px; /* Padding for buttons */
+    margin: 10px; /* Margin for spacing between buttons */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: rgb(43, 255, 0); /* Button color */
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .action-button:hover {
+    background-color: rgb(12, 223, 23); /* Darker color on hover */
+  }
